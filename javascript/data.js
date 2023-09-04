@@ -1,4 +1,4 @@
-const Lists = [
+const todos = [
   {
     id: 1,
     title: "running",
@@ -6,5 +6,5 @@ const Lists = [
   {
     id: 2,
     title: "shoping",
-  },
+  }
 ];
