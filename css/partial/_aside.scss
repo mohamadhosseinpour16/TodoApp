@@ -1,0 +1,36 @@
+// variable
+$black: #000;
+$white: #ddd;
+$bg--button: #4c89f2;
+$bg--button-hover: #0172f3;
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &>input {
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 0.5rem;
+        border: 2px solid $black;
+        outline: none;
+        font-size: 1rem;
+    }
+
+    &>button {
+        background-color: $bg--button;
+        color: $white;
+        padding: 0.7rem 1.2rem;
+        border-radius: 0.5rem;
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        transition: 0.5s;
+        cursor: pointer;
+        &:hover {
+            background-color: $bg--button-hover;
+            transition: 0.5s;
+        }
+    }
+}
