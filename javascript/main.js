@@ -16,12 +16,12 @@ const handleClickAdd = () => {
 
 const handleClickDelete = (index) => {
   todos.splice(index, 1);
-  render()
+  render();
 };
 
 
 const handleClickEdit = () => {};
-const handleClickSuccess = () => [];
+const handleClickSuccess = () => {};
 
 const render = (todolist) => {
   let template = todos.map((todo, index) => {
